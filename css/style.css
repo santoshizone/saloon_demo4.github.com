@@ -1,0 +1,641 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+ #loader{
+         width: 100%;
+         height: 100vh;
+         background:#fff url('../images/loader.gif') center;
+         background-repeat :no-repeat;
+         position: fixed;
+         z-index: 999;
+
+
+      }
+
+
+
+		/*--------------navigationbar------------------------------*/
+
+nav{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+#Navbar1 ul li a{
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+ b {
+	color: purple;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 60px;
+
+}
+
+#Navbar1 ul{
+	margin-right: 100px;
+}
+
+#Navbar1 ul li{
+	padding-left: 15px;
+	
+	margin-left: 5px;
+}
+
+#Navbar1 ul li a:hover{
+	color: black;
+}
+
+.active{
+	background-color: purple;
+	color: black;
+
+	border-radius: 5px;
+}
+
+#Navbar1 ul li:hover{
+	background-color: purple;
+	border-radius: 8px;
+
+}
+
+
+header{
+ 	background: url(../images/salon1.jpg) no-repeat center center fixed;
+ 	
+ 	background-size:100% 100%;
+ 	
+ 	height: 100vh;
+ 	position: relative;
+
+ 	
+ 	
+ }
+
+
+/*--------------------------section1---------------------------------*/
+
+
+ .section1{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ }
+
+
+.sec1_h1{
+	color: purple;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.sec1_h3{
+	color: pink;
+	font-size: 30px;
+}
+
+.sec1_btn1{
+	width: 150px;
+	height: 50px;
+	background-color: hotpink;
+	color: purple;
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 8px;
+	font-weight: bold;
+
+}
+
+/*--------------------------------section2-----------------*/
+
+
+.section2{
+	background-color: black;
+	
+	
+
+}
+
+.section2 img{
+	width: 550px;
+	height: 350px;
+}
+
+.sec2_h1{
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+.sec2_h2{
+	font-size: 60px;
+	color: purple;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.sec2_p1{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+.sec2_col1_p1{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sec2_col1_p2{
+	color: white;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: -15px;
+}
+
+.sec2_col1_p3{
+	color: white;
+	font-size: 16px;
+	margin-top: -15px;
+	
+}
+
+/*---------------------------------------section3------------------*/
+
+.section3{
+	background-color: purple;
+}
+
+.sec3_h1{
+	font-size: 50px;
+	color: hotpink;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.sec3_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.sec3_p1{
+	font-size: 18px;
+	color: white;
+}
+
+
+	.sec3_col1:hover{
+		margin-top: -10px;
+	}
+
+.sec3_col2:hover{
+		margin-top: -10px;
+	}
+.sec3_col3:hover{
+		margin-top: -10px;
+	}
+
+
+	.card_div1{
+		height: 50px;
+		padding-top: 10px;
+		
+	}
+
+/*-------------------------------------section4-----------------------------*/
+
+
+	.section4{
+		background-color: black;
+	}
+
+
+
+
+	.sec4_h1{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.sec4_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.sec4_p1{
+	font-size: 18px;
+	color: grey;
+}
+.sec4_col1_div1{
+	border: 1px solid hotpink;
+	border-radius: 5px;
+	height: 120px;
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 20px;
+	font-size:25px;
+	color: white;
+	position: relative;
+}
+
+
+
+    .sec4_col1_div1{transition: .5s;
+
+    }
+
+.sec4_col:hover{
+	transform: scale(1.1);
+	color: purple;
+
+}
+
+#owl-demo .item{
+  margin: 3px;
+  
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height:auto;
+
+}
+#owl-demo .item:hover{
+	background-color: hotpink;
+	
+}
+
+.item{
+	width: 100px;
+	height: 60px;
+	padding-top: 5px;
+	border-radius: 5px;
+	
+	padding-left: 10px;
+	background-color: white;
+
+}
+
+/*------------------------------section5--------------------*/
+
+.section5{
+	background-color: purple;
+}
+.sec5_h1{
+
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+.sec5_p1{
+	color: white;
+	font-size: 17px;
+}
+
+.item img{
+	opacity: 0.8 ;
+
+}
+
+/*--------------------------------------section6------------------------*/
+
+.section6{
+		background-color: black;
+	}
+
+
+
+
+	.sec6_h1{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.sec6_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.sec6_p1{
+	font-size: 18px;
+	color: grey;
+}
+
+.sec6_col{
+	
+    position: relative;
+    margin: auto;
+  overflow: hidden;
+    width: 329px;
+   
+}
+
+.sec6_col img {
+    
+    transition: all 0.3s;
+    display: block;
+    margin: auto;
+    height: auto;
+    
+    
+   
+}
+
+.sec6_col .overlay{
+    width: 330px;
+    height: 50px;
+    opacity: 1;
+    background-color: black;
+    position: absolute;
+    margin-top: -50px;
+    opacity: 0.5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+   
+}
+
+.sec6_row{
+	display: flex;
+}
+
+
+.sec6_col:hover img {
+    transform: scale(1.2);
+    
+}
+
+
+
+
+/*----------------------------------------------section7----------------------*/
+
+.section7{
+	background-color: black;
+}
+.sec7_h1{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.sec7_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.sec7_p1{
+	font-size: 18px;
+	color: grey;
+}
+
+
+.item1{
+	
+	color: grey;
+	text-align: center;
+	
+}
+
+.owl_p1{
+	border: 1px solid purple;
+	padding: 30px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+#owl-demo1 .item1{
+  margin: 40px;
+  
+}
+#owl-demo1 .item1{
+  display: block;
+  
+  height:auto;
+
+}
+
+/*--------------------------------------------section8-----------------*/
+
+.section8{
+	background-color: purple;
+
+}
+
+.sec8_h3{
+	margin-top: 50px;
+	margin-left: 40px;
+	color: white;
+}
+
+.sec8_p1{
+	color: white;
+	font-size: 17px;
+	margin-left: 40px;
+}
+
+
+.sec8_btn1{
+	margin-top: 90px;
+	width:150px;
+	height: 40px;
+	border: 4px solid white;
+	background-color: purple;
+	color: white;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+
+
+
+/*-------------------------------section9-----------------*/
+
+
+.section9{
+	background-color: black;
+}
+
+.sec9_h1{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+
+
+.sec9_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+
+.pic1 .pic1_content{
+	background-color: grey;
+	width:270px;
+	margin-left: -10px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+
+
+
+
+.pic1 img{
+	
+	height: auto;
+	margin-left: -10px;
+}
+
+.pic1_content i:hover {
+	background-color: purple;
+
+}
+
+
+
+/*--------------------------------------section110------------*/
+
+.section10{
+	background-color:black; 
+}
+
+
+.sec10_h1{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+
+
+.sec10_h2{
+	font-size: 60px;
+	color: hotpink;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+
+.sec10_p1{
+	font-size: 18px;
+	color: grey;
+}
+
+.sec10_btn{
+	width:100px;
+	height:50px;
+	background-color: purple;
+	color:white;
+	border: none;
+	margin-left: 400px;
+
+}
+.sec10_btn:hover{
+	color: black;
+}
+
+form input{
+	width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+ #myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:white; /* Set a background color */
+  color: purple; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+/*---------------------------mediascreen--------------*/
+
+ @media only screen and (max-width: 800px) {
+
+
+	
+
+	.sec4_col{
+		margin-top: 30px;
+	}
+	 form input{
+		width: 328px;
+	}
+	.sec10_btn{
+		margin-left: 100px;
+
+	}
+
+	.section2 img{
+		width: 310px;
+		height: 350px;
+	}
+}
+
+
+	
+	
+
+
+
