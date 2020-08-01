@@ -11,7 +11,7 @@
          background:#fff url('../images/loader.gif') center;
          background-repeat :no-repeat;
          position: fixed;
-         z-index: 999;
+         z-index: 999999999;
 
 
       }
@@ -506,7 +506,7 @@ header{
 
 .pic1 .pic1_content{
 	background-color: grey;
-	width:270px;
+	width:250px;
 	margin-left: -10px;
 	
 	font-size: 20px;
